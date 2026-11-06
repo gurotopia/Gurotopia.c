@@ -4,7 +4,7 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/**",
-                "${workspaceFolder}/include/**"
+                "${workspaceFolder}/thirdparty/**"
             ],
             "defines": [],
             "compilerPath": "C:/msys64/ucrt64/bin/gcc.exe",

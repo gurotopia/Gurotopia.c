@@ -1,0 +1,10 @@
+#pragma once
+
+enum gameEventType : unsigned
+{
+    GAME_EVENT_TYPE_NONE,
+    GAME_EVENT_TYPE_HELLO,
+    GAME_EVENT_TYPE_GENERIC_TEXT,
+    GAME_EVENT_TYPE_MESSAGE,
+    GAME_EVENT_TYPE_PACKET
+};

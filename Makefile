@@ -1,6 +1,6 @@
 flags := -g -MMD -MP
-includes := -Iinclude -Ibuild/include
-libraries := -L./include/enet/lib -lenet_32 -lws2_32 -lwinmm
+includes := -Ithirdparty -Iinclude -Ibuild/include
+libraries := -Lthirdparty/enet/lib -lenet_32 -lws2_32 -lwinmm
 binary := main.exe
 
 all: $(binary)
