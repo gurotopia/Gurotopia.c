@@ -1,7 +1,7 @@
 #pragma once
 
 typedef struct {
-    int packet_create;
+    unsigned int packetType; // GAME_EVENT_TYPE_PACKET
 
     union { 
         int type; 
